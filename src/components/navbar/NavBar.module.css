@@ -1,24 +1,30 @@
 .nav {
-    grid-area: n;
-    background-color: #f36975;
-    padding: 20px;
+    background-color: #4a4343;
+    padding: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 30px;
+    /*justify-content: center;*/
+    font-size: 15px;
     line-height: 1.5;
-    min-height: 100vh;
+    min-height: 30vh;
+    min-width: 20vh;
 
+    /*width: 150px;*/
+
+}
+.nav a:hover {
+    background: rgba(151, 155, 152, 0.35);
+    border-radius: 5%;
 }
 
 .item a {
-    color: #930404;
+    color: #ffffff;
     text-decoration: none;
-
-
 }
 
 .item {
+
     color: white;
 
 }

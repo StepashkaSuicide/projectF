@@ -1,9 +1,11 @@
 import React from 'react';
+import s from './error404.module.css'
+import styles from '../../components/utils/styles/wrapperAllComponents.module.css'
 
 export const Error404 = () => {
     return (
-        <div>
-            error404
+        <div className={`${s.notfound} ${styles.wrapperAllComponents}`}>
+            PAGE NOT FOUND 404
         </div>
     );
 };

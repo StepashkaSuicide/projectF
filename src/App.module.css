@@ -1,0 +1,32 @@
+.wrapperAppComponents {
+    font-family: 'Krona One', sans-serif;
+    background-color: #fdd200;
+    display: flex;
+    justify-content: start;
+
+
+}
+
+.headerWrapper {
+
+    /*background-color: #be5959;*/
+    display: flex;
+    justify-content: end;
+    /*flex-direction: column;*/
+}
+
+.navbarWrapper {
+    background-color: #6a6ac3;
+    display: flex;
+    justify-content: end;
+
+}
+
+.fff {
+
+    /*display: flex;*/
+    align-items: center;
+    justify-content: end;
+
+}
+
