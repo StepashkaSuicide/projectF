@@ -7,6 +7,8 @@ import SuperCheckbox from '../checkbox/SuperCheckbox';
 
 export const ShowComponents = () => {
     return (
+
+
         <div className={`  ${styles.wrapperAllComponents}`}>
             <SuperButton > TEST</SuperButton >
             <SuperInput/>
