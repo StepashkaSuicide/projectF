@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './Login.module.css';
-import styles from '../../components/utils/styles/wrapperAllComponents.module.css'
+import styles from '../../utils/styles/wrapperAllComponents.module.css'
 
 
 export const Login = () => {

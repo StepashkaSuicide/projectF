@@ -1,25 +1,22 @@
 import React from 'react';
-import './App.css';
 import {Route, Routes} from 'react-router-dom';
-import {Login} from './components/login/Login';
-import {Profile} from './components/profile/Profile';
-import {NewPassword} from './components/newPassword/NewPassword';
-import {PasswordRecovery} from './components/passwordRecovery/PasswordRecovery';
-import {NavBar} from './components/navbar/Navbar';
-import {Registration} from './components/registration/Registration';
-import {Header} from './components/Header/Header';
+import {Login} from '../components/login/Login';
+import {Profile} from '../components/profile/Profile';
+import {NewPassword} from '../components/password/newPassword/NewPassword';
+import {PasswordRecovery} from '../components/password/passwordRecovery/PasswordRecovery';
+import {NavBar} from '../components/navbar/Navbar';
+import {Registration} from '../components/registration/Registration';
+import {Header} from '../components/header/Header';
 import s from './App.module.css';
-import {Error404} from './components/error404/Error404';
-import {ShowComponents} from './components/showComponents/ShowComponents';
+import {Error404} from '../components/error404/Error404';
+import {ShowComponents} from '../components/showComponents/ShowComponents';
 
 function App() {
-
     return (
         <div className={s.wrapperAppComponents}>
             <div >
                 <NavBar/>
             </div>
-
             <div className={s.navbarWrapper}>
                 <Routes>
                     <Route path="/login/" element={<Login/>}/>
@@ -39,5 +36,5 @@ function App() {
 
 export default App;
 {/*<div className={s.headerWrapper}>*/}
-{/*    <Header/>*/}
+{/*    <header/>*/}
 {/*</div>*/}

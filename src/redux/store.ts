@@ -1,5 +1,5 @@
 import {combineReducers, legacy_createStore} from 'redux';
-import {authReducer} from './authReducer';
+import {authReducer} from './reducers/authReducer';
 
 
 export type AppStateType = ReturnType<typeof rootReducer>
